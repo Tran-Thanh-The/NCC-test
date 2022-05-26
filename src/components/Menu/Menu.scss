@@ -1,0 +1,21 @@
+
+.Menu {
+  background-color: black;
+  width: 160px;
+  height: 100%;
+
+  .list {
+
+    li {
+      padding: 12px 12px;
+      color: white;
+      border-bottom: 1px solid #999;
+      cursor: pointer;
+      &:hover {
+        font-weight: 600;
+        transform: translateX(4px);
+        transition: all 0.2s linear;
+      }
+    }
+  }
+}
