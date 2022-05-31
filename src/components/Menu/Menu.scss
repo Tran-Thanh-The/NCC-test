@@ -3,9 +3,9 @@
   background-color: black;
   width: 160px;
   height: 100%;
+  transition: all 0.2s linear;
 
   .list {
-
     li {
       padding: 12px 12px;
       color: white;
@@ -17,5 +17,13 @@
         transition: all 0.2s linear;
       }
     }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Menu {
+    position: fixed;
+    top: 0;
+    left: -160px;
   }
 }

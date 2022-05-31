@@ -5,9 +5,10 @@
   align-items: center;
   padding: 50px 100px;
   flex: 1;
+  overflow-x: hidden;
 
   img {
-    width: 400px;
+    max-width: 100%;
   }
 
   .content {
@@ -23,5 +24,13 @@
   .cardList {
     display: flex;
     justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    .cardList {
+      flex-direction: column;
+    }
   }
 }
